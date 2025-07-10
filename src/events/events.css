@@ -1,0 +1,107 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+h1{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #F5704A !important;
+}
+.imagen{
+    width: 140px;
+    border-radius: 1rem;
+
+}
+
+#searchSection{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.container-search{
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    height: 40px;
+}
+
+.card__complete{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #ececf5;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.card__elements{
+    display: flex;
+    padding-left: 2rem;
+}
+.card__buttons{
+    gap: 1rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn__card{
+    color: #F5704A !important;
+    border-color: #F5704A !important;
+}
+
+.btn__card:hover{
+    border: 3px #F5704A !important;
+    color: #ffffff !important;
+    background-color: #F5704A !important;
+
+}
+
+.text h2 {
+    color:#F5704A;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.text{
+    padding-inline: 2rem;
+    color: #8996a2;
+}
+.form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 0px;
+    grid-row: 2;
+}
+.form-container label{
+    color: #F5704A;
+}
+
+.container{
+    margin-top: 2rem;
+    height: 70vh;
+    width: 70rem !important;
+    background-color: #ececf5 !important;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.btnactualizar{
+    border-color: #F5704A ;
+    border-radius: 0.4rem;
+    color: #F5704A;
+    background-color: transparent;
+    padding-inline: 7px;
+
+}
+.btnactualizar:hover{
+    color: #ffffff ;
+    background-color: #F5704A ;
+}
