@@ -5,6 +5,31 @@ window.addEventListener("DOMContentLoaded", () => {
     const date = new Date();
     const readableDate = date.toLocaleString();
 
+    function showEvents(){
+
+        const containerEvents = document.getElementById('containerEvents')
+
+        fetch(apiUrl + "events")
+        .then((response) => response.json())
+        .then((events)=>{
+            console.log("hola")
+
+            events.forEach(event => {
+                containerEvents.innerHTML += `<div class="evento">
+                    <div class="img-placeholder">
+                        <img src="${event.image}" alt="">
+                    </div>
+                    <h3>${event.name}</h3>
+                    <p>${event.description}</p>
+                    <button type="button">ver detalles</button>
+                </div>`
+
+                
+                });
+            })
+    }
+    showEvents()
+
 
     document.getElementById("submit").addEventListener("click", () => {
 
@@ -84,5 +109,7 @@ window.addEventListener("DOMContentLoaded", () => {
     })
     
 });
+
+
 
 });
