@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventPro - Gestión de Eventos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div id="landing-page">
+        <header>
+            <div class="nav-container">
+                <img class="logo" src="./assets/images/boletia_blanco.png" alt="">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#"><b>Inicio</b></a></li>
+                        <li><a href="#"><b>Acerca de </b></a></li>
+                        <li><a href="#"><b>Eventos</b></a></li>
+                        <li><a href="#"><b>Login</b></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div id="carouselExampleCaptions" class="carousel_slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/fiesta_montañera.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/feria_flores.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/maraton.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <section class="container-about">
+            <div class="about__logo">
+                <img src="./assets/images/boletia_logo.png" alt="">
+                <h1>Llegar al mundo, un evento a la vez</h1>
+                <p>Una plataforma diseñada para mantenerte al día con los eventos más emocionantes. Desde eventos deportivos hasta conciertos inolvidables que hacen vibrar el país</p>
+            </div>
+            
+            <div class="about__somos">
+                <h2>Quienes somos.</h2>
+                <p>Boletia es tu guía confiable para descubrir y estar al día con los mejores eventos del país. Explora, infórmate y vive la emoción de cada evento, todo en un solo lugar</p>
+                <input type="email" id="emailSubmit"  placeholder="Email">
+                <button type="button" id="submit" ><b>Suscribete</b></button>
+            </div>
+
+        </section>
+
+
+
+        <section class="eventos">
+            <div class="evento">
+                <div class="img-placeholder">
+                    <img src="./assets/images/fiesta_montañera.jpg" alt="">
+                </div>
+                <h3>Fiesta Montañera</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <button type="button">ver detalles</button>
+            </div>
+            <div class="evento">
+                <div class="img-placeholder">
+                    <img src="./assets/images/feria_flores.jpeg" alt="">
+                </div>
+                <h3>Título del evento</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <button type="button">ver detalles</button>
+            </div>
+            <div class="evento">
+                <div class="img-placeholder">
+                    <img src="./assets/images/maraton.png" alt="">
+                </div>
+                <h3>Título del evento</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <button type="button">ver detalles</button>
+            </div>
+            <div class="evento">
+                <div class="img-placeholder">
+                    <img src="./assets/images/maraton.png" alt="">
+                </div>
+                <h3>Título del evento</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <button type="button">ver detalles</button>
+            </div>
+        </section>
+
+        <section class="contacto">
+            <div class="mapa">Mapa</div>
+            <form class="formulario">
+                <input type="text" placeholder="nombres" id="name" />
+                <input type="email" placeholder="correo" id="emailMessage" />
+                <textarea placeholder="mensaje" id="message"></textarea>
+                <button id="submitMessage" type="submit">Enviar</button>
+            </form>
+        </section>
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <img class="logo" src="./assets/images/boletia_blanco.png" alt="">
+                        <p>La plataforma líder en gestión de eventos profesionales.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Enlaces</h4>
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Eventos</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Contacto</h4>
+                        <p> boletia@eventos.com</p>
+                        <p> +1 234 567 8900</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 boletia. Todos los derechos reservados DeepBlue.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+        <script type="module" src="./scrips.js"></script>
+</body>
+
+</html>
