@@ -1,5 +1,27 @@
 {
-  "events": []
+  "events": [
+    {
+      "name": "pelu",
+      "date": "2025-07-19",
+      "description": "cabelo",
+      "image": "file:///media/coders/disk/ADRIAN%20TE%20AMO/JAVASCRIPT/Boletia/landing/assets/images/feria_flores.jpeg",
+      "id": 2
+    },
+    {
+      "name": "ISA",
+      "date": "2025-07-25",
+      "description": "te amo",
+      "image": "file:///media/coders/disk/ADRIAN%20TE%20AMO/JAVASCRIPT/Boletia/landing/assets/images/feria_flores.jpeg",
+      "id": 3
+    },
+    {
+      "name": "Feria de flores",
+      "date": "2025-07-19",
+      "description": "lorem",
+      "image": "file:///media/coders/disk/ADRIAN%20TE%20AMO/JAVASCRIPT/Boletia/landing/assets/images/feria_flores.jpeg",
+      "id": 4
+    }
+  ],
 
   "subscription": [
     {
