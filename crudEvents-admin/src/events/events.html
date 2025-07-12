@@ -1,0 +1,58 @@
+
+        <h1>Lista de eventos</h1>
+        <section class="container-search">
+            <section id="searchSection">
+                <input type="text" class="form-control" id="eventName" placeholder="Buscar evento">
+                <button class="btn btn-outline-primary" id="searchButton">Buscar</button>
+            </section>
+            <button id="newEvent" class="btn btn-outline-primary">Nuevo evento</button>
+        </section>
+
+        <section id="main">
+            <section id="containerCards" class="container-cards">
+
+                
+
+            </section>
+        </section>
+
+        <section id="addCard" style="display: none;">
+            <div class="container">
+                <div class="form-container shadow-sm">
+                    <form>
+                        <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="tittle" class="form-label">Titulo</label>
+                            <input type="text" class="form-control" id="tittle" placeholder="Titulo" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="date" class="form-label">Fecha</label>
+                            <input type="date" class="form-control" id="date" required>
+                        </div>
+                        </div>
+
+                        <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="descriptions" class="form-label">Descripción</label>
+                            <input type="text" class="form-control" id="descriptions" placeholder="Descripción" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="image" class="form-label">Imagen</label>
+                            <input type="url" class="form-control" id="image" placeholder="Url de la imagen" required>
+                        </div>
+                        </div>
+
+
+                        <div id="containerBtnInput" class="d-flex justify-content-between">
+                            <button id="btnCancel" class="btn btn-outline-primary btn__card">Cancelar</button>
+                            <button id="btnAdd" type="submit" class="btn btn-outline-primary btn__card btnAdd">Agregar</button>
+
+                        </div>
+                    </form>
+        
+                </div>
+            </div>
+        </section>
+        <script type="module" src="./events.js"></script>
+        
+

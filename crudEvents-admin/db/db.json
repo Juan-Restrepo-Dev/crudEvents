@@ -1,0 +1,70 @@
+{
+  "events": [
+    {
+      "id": "6ccc",
+      "name": "antony",
+      "date": "2025-07-17",
+      "description": "sadasdas",
+      "image": "https://cdn.pixabay.com/photo/2025/06/20/02/13/rough-scaled-python-9669996_640.jpg"
+    },
+    {
+      "id": "ebbc",
+      "name": "la fiesta parrander",
+      "date": "2025-07-25",
+      "description": "sdadsadsadsaddsa",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1miDuIl3XzfFMjMMGrBVnTmG3hgtwoneRNQ&s"
+    },
+    {
+      "id": "9215",
+      "name": "angeles y demonios",
+      "date": "2025-07-23",
+      "description": "noche de locuras",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFOcv1TWjVWJ76QNj71J-LzmTfLQcF9UbOTw&s"
+    }
+  ],
+  "subscription": [
+    {
+      "email": "david@gmail.com",
+      "date": "7/9/2025, 9:49:29 AM",
+      "id": 1
+    },
+    {
+      "email": "dsds@cadsds",
+      "date": "7/10/2025, 2:41:31 PM",
+      "id": 2
+    },
+    {
+      "email": "antonymaruiz@gmail.com",
+      "date": "7/10/2025, 2:52:37 PM",
+      "id": 3
+    },
+    {
+      "email": "antonymaruiz@gmail.com",
+      "date": "7/10/2025, 3:10:27 PM",
+      "id": 4
+    }
+  ],
+  "messages": [
+    {
+      "name": "david",
+      "email": "david@gmail.com",
+      "message": "hola mundo",
+      "date": "7/9/2025, 10:57:46 AM",
+      "id": 1
+    },
+    {
+      "name": "David Palacios",
+      "email": "david@gmail.com",
+      "message": "Hola soy lo mas chingon que hay!",
+      "date": "7/9/2025, 11:39:25 AM",
+      "id": 2
+    },
+    {
+      "name": "antony",
+      "email": "antony@gmail.com",
+      "message": "asdadasd",
+      "date": "7/10/2025, 2:52:37 PM",
+      "id": 3
+    }
+  ]
+}
